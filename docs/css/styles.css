@@ -1,0 +1,115 @@
+#wrapper {
+    width: 960px;
+}
+
+body{
+    body: overflow;
+    background-color: black;
+}
+#top {
+    height: 135px;
+    line-height: 135px;
+}
+
+#companyLogo{
+    height: 5px;
+    width: 5px;
+}
+#menu{
+    float: left;
+    color: white;
+}
+#banner {
+    background-image: url("../images/pexels-photo-1436119.jpg");
+    background-size: cover;
+    height: 367px;
+    position: relative;
+}
+#banner h1{
+    color: white;
+    position: relative;
+    top: 115px;
+    left: 100px;
+}
+#footer {
+    position: absolute;
+    bottom: 0px;
+    width: 960px;
+    background-color: black;
+    color: white;
+    line-height: 100px;
+}
+.clearMargin {
+    margin: 0px;
+}
+.topMargin {
+    margin-top: 31px;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.fontFamily {
+    font-family: "Helvetica", Helvetica-nueue, sans-serif;
+}
+
+.grBigContent {
+    width: 940px;
+}
+
+.grBigContentPadding {
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.grSmallContent {
+    width: 50px;
+}
+
+.grSmallContentPadding {
+    padding-right: 19px;
+    padding-left: 19px;
+}
+
+.clearFix {
+    clear: both;
+}
+
+.borderCenter{
+    border: center;
+}
+
+.marginCenter {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.floatLeft {
+    float: left;
+}
+
+.textInline {
+    display: inline;
+}
+
+.textRight {
+    text-align: right;
+}
+
+.textLeft {
+    text-align: left;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.textJustify {
+    text-align: justify;
+}
+
+.relativePosition {
+    position: relative;
+}
