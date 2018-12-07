@@ -5,6 +5,7 @@
 body{
     body: overflow;
     background-color: black;
+
 }
 #top {
     height: 135px;
@@ -31,8 +32,12 @@ body{
     top: 115px;
     left: 100px;
 }
+#picture1{
+    position: relative;
+
+}
 #footer {
-    position: absolute;
+    position: page;
     bottom: 0px;
     width: 960px;
     background-color: black;
