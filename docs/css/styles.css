@@ -39,7 +39,7 @@ body{
 }
 
 #email{
-    color: azure;
+    color: darkorange;
     position: center;
 
 }
@@ -72,14 +72,14 @@ p{
     font-palette: light;
 }
 p.small {
-    line-height: 1.5;
+    line-height: 2.0;
 }
 .column {
     float: left;
-    width: 960px;
-    padding: 5px;
+    width: 33%;
+    padding: 45px;
 }
-.row::after {
+.row{
     content: "";
     clear: both;
     display: table;
@@ -111,9 +111,6 @@ p.small {
     clear: both;
 }
 
-.borderCenter{
-    border: center;
-}
 
 .marginCenter {
     margin-right: auto;
