@@ -3,9 +3,8 @@
 }
 
 body{
-    body: overflow;
+    overflow: scroll;
     background-color: black;
-
 }
 #top {
     height: 135px;
@@ -23,7 +22,7 @@ body{
 #banner {
     background-image: url("../images/pexels-photo-1436119.jpg");
     background-size: cover;
-    height: 367px;
+    height: 500px;
     position: relative;
 }
 #banner h1{
@@ -32,12 +31,20 @@ body{
     top: 115px;
     left: 100px;
 }
-#picture1{
+#banner h2{
+    color: forestgreen;
     position: relative;
+    top: 30px;
+    left: 195px;
+}
+
+#email{
+    color: azure;
+    position: center;
 
 }
 #footer {
-    position: page;
+    position: relative;
     bottom: 0px;
     width: 960px;
     background-color: black;
@@ -47,8 +54,9 @@ body{
 .clearMargin {
     margin: 0px;
 }
-.topMargin {
-    margin-top: 31px;
+.marginCenter {
+    margin-right: auto;
+    margin-left: auto;
 }
 a {
     text-decoration: none;
@@ -56,6 +64,27 @@ a {
 a:hover {
     text-decoration: underline;
 }
+p{
+    color:white;
+    text-space: double;
+    font-size: 18px;
+    font-style: italic;
+    font-palette: light;
+}
+p.small {
+    line-height: 1.5;
+}
+.column {
+    float: left;
+    width: 960px;
+    padding: 5px;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 .fontFamily {
     font-family: "Helvetica", Helvetica-nueue, sans-serif;
 }
@@ -94,6 +123,9 @@ a:hover {
 .floatLeft {
     float: left;
 }
+.floatRight{
+    float:right;
+}
 
 .textInline {
     display: inline;
@@ -111,10 +143,3 @@ a:hover {
     text-align: center;
 }
 
-.textJustify {
-    text-align: justify;
-}
-
-.relativePosition {
-    position: relative;
-}
